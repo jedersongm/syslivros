@@ -47,7 +47,7 @@
                         </li>
 
                         <li>
-                            <a href="#">Livros</a>
+                            <a href="#"><span class="glyphicon glyphicon-book"></span>Livros</a>
                         </li>
 
 
@@ -70,13 +70,13 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Perfil <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="#">Ver Solicitações de Amizade</a>
+                                    <a href="#"><span class="glyphicon glyphicon-flag"></span> Ver Solicitações de Amizade</a>
                                 </li>
                                 <li>
-                                    <a href="#">Editar Perfil</a>
+                                    <a href="#"><span class="glyphicon glyphicon-cog"></span> Editar Perfil</a>
                                 </li>
                                 <li>
-                                    <a href="#">Excluir Perfil</a>
+                                    <a href="#"><span class="glyphicon glyphicon-remove"></span> Excluir Perfil</a>
                                 </li>
                             </ul>
                         </li>
