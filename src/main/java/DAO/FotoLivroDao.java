@@ -1,6 +1,6 @@
 package DAo;
 
-import Conexao.ClasseConexao;
+import Conexao.Conexao;
 import Conexao.ConnectionFactory;
 import Entidades.Foto;
 import Entidades.Usuario;
@@ -19,7 +19,7 @@ import javax.swing.ImageIcon;
 
 public class FotoLivroDao implements FotoLivroDaoIF {
     ConnectionFactory factory = new ConnectionFactory();
-    ClasseConexao conexao = new ClasseConexao();
+    Conexao conexao = new Conexao();
     Connection con;
     PreparedStatement pstm;
     

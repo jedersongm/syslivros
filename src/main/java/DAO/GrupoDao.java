@@ -1,6 +1,6 @@
 package DAO;
 
-import Conexao.ClasseConexao;
+import Conexao.Conexao;
 import Conexao.ConnectionFactory;
 import Entidades.Grupo;
 import Entidades.Usuario;
@@ -14,7 +14,7 @@ import java.util.List;
 
 public class GrupoDao implements GrupoDaoIF{
     ConnectionFactory factory = new ConnectionFactory();
-    ClasseConexao conexao = new ClasseConexao();
+    Conexao conexao = new Conexao();
     Connection con;
     PreparedStatement pstm;
     

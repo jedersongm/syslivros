@@ -5,7 +5,7 @@
  */
 package DAO;
 
-import Conexao.ClasseConexao;
+import Conexao.Conexao;
 import Conexao.ConnectionFactory;
 import Entidades.Foto;
 import Interfaces.FotoDaoIF;
@@ -25,7 +25,7 @@ import java.util.logging.Logger;
 public class FotoDAO implements FotoDaoIF {
     
     ConnectionFactory factory = new ConnectionFactory();
-    ClasseConexao conexao = new ClasseConexao();
+    Conexao conexao = new Conexao();
     Connection con;
     PreparedStatement pstm;
 

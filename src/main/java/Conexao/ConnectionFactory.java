@@ -13,7 +13,7 @@ import java.sql.SQLException;
  *
  * @author jederson
  */
-class ConnectionFactory {
+public class ConnectionFactory {
 
     private String url;
     private String password;
@@ -39,9 +39,8 @@ class ConnectionFactory {
         try {
             Class.forName(this.driver);
             return DriverManager.getConnection(this.url, this.user, this.password);
-        } catch (ClassNotFoundException ex){
+        } catch (ClassNotFoundException ex) {
             throw new SQLException(ex);
         }
     }
-    
 }

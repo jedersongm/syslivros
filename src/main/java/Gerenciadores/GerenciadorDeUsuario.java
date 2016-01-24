@@ -1,6 +1,5 @@
 package Gerenciadores;
 
-import Data.Data;
 import Entidades.Usuario;
 import Fabricas.DaoFactory;
 import Fabricas.DaoFactoryIF;
@@ -11,8 +10,7 @@ import java.util.List;
 public class GerenciadorDeUsuario {
     
     public void adicionarUsuario(String email, String nome, String apelido, String senha, String cidade, String estado, String fotoCapa, String dataNascimento,  String tipo) throws SQLException{
-        Usuario novoUsuario = new Usuario();
-        Data data = new Data();
+        Usuario novoUsuario = new Usuario();        
         novoUsuario.setEmail(email);
         novoUsuario.setNome(nome);
         novoUsuario.setApelido(apelido);

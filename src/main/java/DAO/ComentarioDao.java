@@ -1,7 +1,7 @@
 
 package DAO;
 
-import Conexao.ClasseConexao;
+import Conexao.Conexao;
 import Conexao.ConnectionFactory;
 import Entidades.Comentario;
 import Interfaces.ComentarioDaoIF;
@@ -15,7 +15,7 @@ import java.util.List;
 
 public class ComentarioDao implements ComentarioDaoIF {
     ConnectionFactory factory = new ConnectionFactory();
-    ClasseConexao conexao = new ClasseConexao();
+    Conexao conexao = new Conexao();
     Connection con;
     PreparedStatement pstm;
     

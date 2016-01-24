@@ -1,6 +1,6 @@
 package DAO;
 
-import Conexao.ClasseConexao;
+import Conexao.Conexao;
 import Conexao.ConnectionFactory;
 import Entidades.Usuario;
 import Interfaces.UsuarioDaoIF;
@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 public class UsuarioDao implements UsuarioDaoIF {
     ConnectionFactory factory = new ConnectionFactory();
-    ClasseConexao conexao = new ClasseConexao();
+    Conexao conexao = new Conexao();
     Connection con;
     PreparedStatement pstm;
     

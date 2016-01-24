@@ -1,6 +1,6 @@
 package DAO;
 
-import Conexao.ClasseConexao;
+import Conexao.Conexao;
 import Conexao.ConnectionFactory;
 import Entidades.Livro;
 import Entidades.Livro;
@@ -14,7 +14,7 @@ import java.util.List;
 
 public class LivroDao implements LivroDaoIF {
     ConnectionFactory factory = new ConnectionFactory();
-    ClasseConexao conexao = new ClasseConexao();
+    Conexao conexao = new Conexao();
     Connection con;
     PreparedStatement pstm;
     
