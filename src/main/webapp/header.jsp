@@ -52,16 +52,16 @@
 
 
                         <li>
-                            <a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                            <a href="cadastrar.jsp"><span class="glyphicon glyphicon-user"></span> Cadastrar</a>
                         </li>
                         <li>
-                            <a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+                            <a href="login.jsp"><span class="glyphicon glyphicon-log-in"></span> Login</a>
                         </li>
 
 
 
                         <li>
-                            <a href="#">Usuarios</a>
+                            <a href="ListarUsuarios">Usuarios</a>
                         </li>
                         <li>
                             <a href="#">Grupos</a>

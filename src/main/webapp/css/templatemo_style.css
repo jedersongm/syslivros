@@ -7,6 +7,8 @@ h1 {
 	margin: auto;
 	margin-top: 30px;
 	text-align: center;
+        font-family: cooper;
+        text-shadow: 2px 3px 8px #000;
 }
 h2 {
 	font-weight: 500;
@@ -66,7 +68,8 @@ h2 {
 }
 .templatemo-bg-image-2 {
 	background-color: rgb(70, 90, 60);
-	background-image: url(../images/rolo1.jpg);
+	background-image: url(../images/livros4.jpg);
+        
 }
 
 .templatemo-bg-image-3 {
@@ -118,19 +121,19 @@ h2 {
 3. login-form-2
 ---------------------------------------*/
 .templatemo-login-form-2 {
-	background-color: rgba(13,13,13,0.25);
+	background-color: #555;
 	border-radius: 8px;
 	color: #fff;
 	font-weight: 300;
-	max-width: 650px;
-	padding: 0 30px 30px 30px;
-	margin: 30px auto 0 auto;
+	max-width: 800px;
+	padding: 0px 51px 25px 52px;
+	margin: 20px auto 30px auto;
 }
 .templatemo-login-form-2 h1 { color: #fff; margin-bottom: 40px; }
 .templatemo-login-form-2 a { color: #DBDBDB; }
 .templatemo-login-form-2 .form-control {
 	background-color: rgba(83, 78, 78, 0.35);
-	border: 1px solid rgba(255, 255, 255, 0.27);
+	border: 2px solid rgba(255, 255, 255, 0.27);
 	color: rgb(255,255,255);
 }
 .templatemo-login-form-2 .templatemo-input-icon-container .fa {	color: rgb(190, 190, 190); }

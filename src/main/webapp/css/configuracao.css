@@ -43,6 +43,16 @@ h2{
     font-size: 4px;
     padding-bottom: 85px;
     opacity: 0;
+    background-image: url(../images/perfil.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 300px;
+    overflow: hidden;
+    border: dashed #09c150 2px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
 }
 .lista{
     list-style: none;
@@ -104,11 +114,20 @@ b{
     display: block;
     margin: 8px 0px;
 }
-.relacionamentos img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+.imgPerfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
     display: block;
+    position: relative;
+    background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.27);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
 .nome{
     display: block;
@@ -159,14 +178,52 @@ b{
     display: inline-block;
 }
 .adicionar-foto{
+    background-image: url(../images/adicionarFoto.png);
+    display:block;
     position: relative;
-    background-image: url(../imagens/icone/add-icon.png);
-    background-size: 20px;
     background-repeat: no-repeat;
+    background-color: #09c150;
     background-position: 50%;
+    border-radius: 300px;
     overflow: hidden;
     border: dashed #09c150 2px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 44px;
     margin: 0 auto;
+    background-color: rgba(83, 78, 78, 0.35);
+    border: 2px solid rgba(255, 255, 255, 0.27);
+    color: #FFF;
+}
+
+.botao{
+    
+    /*background-image: url(../images/botao_cadastrar.png);*/
+    display:block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: #09c150;
+    background-position: 50%;
+    border-radius: 300px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.27);
+    background-color: rgba(83, 78, 78, 0.35);
+    width: 219px;
+    height: 70px;
+    margin: 0px auto;
+    font-family: cooper;
+    text-shadow: 2px 3px 8px #000;
+}
+
+.campoBotao{
+/*    background-image: url(../images/botao_cadastrar.png);
+    display:block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 300px;
+    overflow: hidden;
+    border: dashed #09c150 2px;
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;*/
 }

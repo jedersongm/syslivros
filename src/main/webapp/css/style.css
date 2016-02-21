@@ -131,17 +131,16 @@ border-radius:5px;
 }
 
 footer{
-    
-    background-color: black;
-    color: #ffffff;
+    background-color: #000;
+    color: #FFF;
     font-family: verdana;
     font-size: 16px;
     text-align: center;
-    padding:1em;
+    padding: 1em;
     clear: both;
-    position:relative;
-    bottom:0;
-    width:100%;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
 }
 
 .logo{
